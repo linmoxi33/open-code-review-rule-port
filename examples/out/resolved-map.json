@@ -1,0 +1,34 @@
+{
+  "files_scanned": 5,
+  "resolved": {
+    "README.md": null,
+    "internal/agent/run.go": 1,
+    "internal/llm/providers.go": 0,
+    "internal/llm/providers_test.go": 0,
+    "web/app.tsx": 2
+  },
+  "rules": [
+    {
+      "index": 0,
+      "merge_system_rule": false,
+      "path": "internal/llm/*.go"
+    },
+    {
+      "index": 1,
+      "merge_system_rule": false,
+      "path": "internal/**/*.go"
+    },
+    {
+      "index": 2,
+      "merge_system_rule": false,
+      "path": "**/*.{ts,tsx}"
+    },
+    {
+      "index": 3,
+      "merge_system_rule": false,
+      "path": "internal/llm/providers_test.go"
+    }
+  ],
+  "ruleset_sha256": "547d5277a123510de37d9059fe42bbaa177acf94814a593459fa4779cd618415",
+  "schema": "ocr-rule-port/1"
+}

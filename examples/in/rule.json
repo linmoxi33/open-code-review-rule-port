@@ -1,0 +1,8 @@
+{
+  "rules": [
+    {"path": "internal/llm/*.go", "rule": "Provider registry: keep fields inline, follow Name → DisplayName → Protocol → BaseURL → EnvVar → Models order, and update all four locale docs in the same PR."},
+    {"path": "internal/**/*.go", "rule": "Every exported handler validates the request body before use."},
+    {"path": "**/*.{ts,tsx}", "rule": "No default exports in shared UI files; use named exports."},
+    {"path": "internal/llm/providers_test.go", "rule": "One TestLookupProvider_<Name>Details per provider."}
+  ]
+}

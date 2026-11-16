@@ -1,0 +1,22 @@
+{
+  "files_scanned": 5,
+  "files_with_rule": 4,
+  "findings": [
+    {
+      "code": "shadowed_rule",
+      "matched_files": [
+        "internal/llm/providers_test.go"
+      ],
+      "message": "never fires on this tree: 1 file(s) match its glob but an earlier entry wins them",
+      "rule_index": 3
+    }
+  ],
+  "outputs": {
+    "AGENTS.md": "5db333aee55922007bf6cc44eabe48c55bf3a147c569291988c939132d0d92ac",
+    "resolved-map.json": "a098608fb2e2f86fa2ebc2558728d999fc3cd54bfd519cc85e43345ec6229946"
+  },
+  "rules": 4,
+  "rules_that_fire": 3,
+  "ruleset_sha256": "547d5277a123510de37d9059fe42bbaa177acf94814a593459fa4779cd618415",
+  "schema": "ocr-rule-port/1"
+}
